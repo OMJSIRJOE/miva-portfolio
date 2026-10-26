@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Student portfolio and academic management website">
+<title>Planner | Student Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="container nav-wrap">
+    <a href="index.html" class="logo">MyPortfolio</a>
+    <button id="menuBtn" aria-label="Toggle menu">&#9776;</button>
+    <nav id="navMenu">
+      <ul>
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="about.html" >About</a></li>
+        <li><a href="projects.html" >Projects</a></li>
+        <li><a href="planner.html" class="active">Planner</a></li>
+        <li><a href="contact.html" >Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main class="container fade-in">
+<h1>Academic Planner</h1>
+<section class="planner">
+  <form id="taskForm">
+    <label for="taskInput" class="sr-only">New task</label>
+    <input type="text" id="taskInput" placeholder="e.g. Submit COS 106 project" required>
+    <button type="submit" class="btn">Add Task</button>
+  </form>
+  <p id="taskCount" class="muted"></p>
+  <ul id="taskList"></ul>
+</section>
+</main>
+<footer>
+  <p>&copy; 2026 Joshua Omaka | COS 106 Term Project | MIVA Open University</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

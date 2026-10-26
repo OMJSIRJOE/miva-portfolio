@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Student portfolio and academic management website">
+<title>Contact | Student Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="container nav-wrap">
+    <a href="index.html" class="logo">MyPortfolio</a>
+    <button id="menuBtn" aria-label="Toggle menu">&#9776;</button>
+    <nav id="navMenu">
+      <ul>
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="about.html" >About</a></li>
+        <li><a href="projects.html" >Projects</a></li>
+        <li><a href="planner.html" >Planner</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main class="container fade-in">
+<h1>Contact Me</h1>
+<form id="contactForm" class="contact" novalidate>
+  <label for="name">Name</label>
+  <input type="text" id="name" name="name">
+  <span class="error" id="nameError"></span>
+
+  <label for="email">Email Address</label>
+  <input type="email" id="email" name="email">
+  <span class="error" id="emailError"></span>
+
+  <label for="phone">Phone Number</label>
+  <input type="text" id="phone" name="phone">
+  <span class="error" id="phoneError"></span>
+
+  <label for="message">Message</label>
+  <textarea id="message" name="message" rows="5"></textarea>
+  <span class="error" id="messageError"></span>
+
+  <button type="submit" class="btn">Send Message</button>
+  <p id="formSuccess" class="success"></p>
+</form>
+</main>
+<footer>
+  <p>&copy; 2026 Joshua Omaka | COS 106 Term Project | MIVA Open University</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

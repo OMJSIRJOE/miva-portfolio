@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Student portfolio and academic management website">
+<title>Home | Student Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="container nav-wrap">
+    <a href="index.html" class="logo">MyPortfolio</a>
+    <button id="menuBtn" aria-label="Toggle menu">&#9776;</button>
+    <nav id="navMenu">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html" >About</a></li>
+        <li><a href="projects.html" >Projects</a></li>
+        <li><a href="planner.html" >Planner</a></li>
+        <li><a href="contact.html" >Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main class="container fade-in">
+<section class="hero">
+  <img src="images/joshua.jpg" alt="Photograph of Joshua Omaka" class="avatar">
+  <div>
+    <h1>Hi, I am Joshua Omaka</h1>
+    <p class="welcome">Welcome to my personal portfolio and academic management website.</p>
+    <p>I am a Software Engineering student at MIVA Open University with a passion for building useful web applications. This site showcases my profile, skills, projects, and helps me stay on top of my academic tasks.</p>
+    <a class="btn" href="projects.html">View My Projects</a>
+    <a class="btn btn-outline" href="contact.html">Contact Me</a>
+  </div>
+</section>
+<section class="cards">
+  <article class="card"><h2>About Me</h2><p>Learn about my education, skills and interests.</p><a href="about.html">Read more &rarr;</a></article>
+  <article class="card"><h2>Projects</h2><p>Browse the work I have built so far.</p><a href="projects.html">See projects &rarr;</a></article>
+  <article class="card"><h2>Planner</h2><p>Track tasks and deadlines interactively.</p><a href="planner.html">Open planner &rarr;</a></article>
+</section>
+<section>
+  <h2>Introduction Audio</h2>
+  <audio controls><source src="media/intro.mp4" type="audio/mp4">Your browser does not support audio.</audio>
+</section>
+</main>
+<footer>
+  <p>&copy; 2026 Joshua Omaka | COS 106 Term Project | MIVA Open University</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
